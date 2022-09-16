@@ -69,9 +69,21 @@ export default class NavbarComp extends Component {
                 
 
               </Nav>
+              <Nav>
+                <Nav.Link as={Link} to="/ECE444-Lab1">
+                  ECE444-Lab1
+                </Nav.Link>
+              </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
+        <div>
+          <Switch>
+            <Route path="/ECE444-Lab1">
+              <div className='new_text'>
+                Meha Gupta
+              </div>
+            </Route>
         <div>
           <Switch>
           <Route path="/about">
@@ -106,6 +118,8 @@ We are looking for feedback to improve Education Pathways and make it more usefu
             </Route>
 
           </Switch>
+        </div>
+        </Switch>
         </div>
         
         
